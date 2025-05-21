@@ -55,7 +55,6 @@ class Forms extends CMSPlugin implements SubscriberInterface
 		return [
 			'onRadicalMartPrepareForm'  => 'onRadicalMartPrepareForm',
 			'onRadicalMartGetOrderForm' => 'onRadicalMartGetOrderForm',
-
 		];
 	}
 
