@@ -2,7 +2,7 @@
 /*
  * @package     RadicalMart Package
  * @subpackage  plg_system_radicalmart
- * @version     __DEPLOY_VERSION__
+ * @version     1.0.0
  * @author      RadicalMart Team - radicalmart.ru
  * @copyright   Copyright (c) 2025 RadicalMart. All rights reserved.
  * @license     GNU/GPL license: https://www.gnu.org/copyleft/gpl.html
@@ -30,7 +30,7 @@ class Forms extends CMSPlugin implements SubscriberInterface
 	 *
 	 * @var    bool
 	 *
-	 * @since  __DEPLOY_VERSION__
+	 * @since  1.0.0
 	 */
 	protected $autoloadLanguage = true;
 
@@ -39,7 +39,7 @@ class Forms extends CMSPlugin implements SubscriberInterface
 	 *
 	 * @var    string
 	 *
-	 * @since  __DEPLOY_VERSION__
+	 * @since  1.0.0
 	 */
 	protected string $formsPath = JPATH_PLUGINS . '/radicalmart/forms/forms';
 
@@ -48,7 +48,7 @@ class Forms extends CMSPlugin implements SubscriberInterface
 	 *
 	 * @return  array
 	 *
-	 * @since   __DEPLOY_VERSION__
+	 * @since   1.0.0
 	 */
 	public static function getSubscribedEvents(): array
 	{
@@ -66,7 +66,7 @@ class Forms extends CMSPlugin implements SubscriberInterface
 	 *
 	 * @throws \Exception
 	 *
-	 * @since __DEPLOY_VERSION__
+	 * @since 1.0.0
 	 */
 	public function onRadicalMartPrepareForm(Form $form, mixed $data = []): void
 	{
@@ -86,7 +86,7 @@ class Forms extends CMSPlugin implements SubscriberInterface
 	 *
 	 * @throws \Exception
 	 *
-	 * @since __DEPLOY_VERSION__
+	 * @since 1.0.0
 	 */
 	public function onRadicalMartGetOrderForm(string           $context, Form $form, array $formData,
 	                                          bool|array|null  $products,
@@ -100,7 +100,7 @@ class Forms extends CMSPlugin implements SubscriberInterface
 	 *
 	 * @param   Form  $form  jForm object.
 	 *
-	 * @since __DEPLOY_VERSION__
+	 * @since 1.0.0
 	 */
 	protected function loadFormFile(Form $form): void
 	{
