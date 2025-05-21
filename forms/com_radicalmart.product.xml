@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form addfieldprefix="Joomla\Component\RadicalMart\Administrator\Field">
+	<fieldset name="plugins_form" label="PLG_RADICALMART_FORMS_CUSTOM_FIELDSET">
+		<fields name="plugins">
+			<field name="custom_2" type="text"
+				   label="PLG_RADICALMART_FORMS_CUSTOM_FIELD_2"/>
+		</fields>
+	</fieldset>
+</form>

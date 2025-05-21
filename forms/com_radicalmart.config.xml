@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<form addfieldprefix="Joomla\Component\RadicalMart\Administrator\Field">
+	<fieldset name="general_custom_form" label="PLG_RADICALMART_FORMS_CUSTOM_FIELDSET">
+		<field name="custom_1" type="text"
+			   label="PLG_RADICALMART_FORMS_CUSTOM_FIELD_1"/>
+	</fieldset>
+</form>

@@ -1,0 +1,10 @@
+<form addfieldprefix="Joomla\Component\RadicalMart\Administrator\Field">
+	<fieldset name="prices_{currency_group}" label="{currency_title}">
+		<fields name="prices">
+			<fields name="{currency_group}">
+				<field name="custom_1" type="text"
+					   label="PLG_RADICALMART_FORMS_CUSTOM_FIELD_1"/>
+			</fields>
+		</fields>
+	</fieldset>
+</form>

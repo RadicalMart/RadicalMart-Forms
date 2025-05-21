@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form addfieldprefix="Joomla\Component\RadicalMart\Site\Field">
+	<fieldset name="contacts" label="COM_RADICALMART_CONTACTS">
+		<fields name="contacts">
+			<field name="custom_1" type="text"
+				   label="PLG_RADICALMART_FORMS_CUSTOM_FIELD_1"/>
+		</fields>
+	</fieldset>
+	<fieldset name="plugins_form" label="PLG_RADICALMART_FORMS_CUSTOM_FIELDSET">
+		<fields name="plugins">
+			<field name="custom_2" type="text"
+				   label="PLG_RADICALMART_FORMS_CUSTOM_FIELD_2"/>
+		</fields>
+	</fieldset>
+</form>
