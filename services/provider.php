@@ -55,9 +55,6 @@ return new class implements ServiceProviderInterface {
 				$mvcFactory = $container->get(MVCFactoryInterface::class);
 				$plugin->setMVCFactory($mvcFactory);
 
-				// Load component language
-				$app->getLanguage()->load('com_radicalmart', JPATH_ADMINISTRATOR);
-
 				return $plugin;
 			}
 		);
